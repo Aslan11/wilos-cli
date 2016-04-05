@@ -65,6 +65,14 @@ $ wilos --lat=19.8968 --lon=155.5828 # weather for Hawaii
 ### Get Weather for a location (Requires Forecast.io and Google Key)
 ```bash
 $ wilos --loc='Los Angeles' # weather for LA
+"======== What's it like outside Los Angeles, CA, USA? ========"
+
+   ________                    \  |  /
+  / ____/ /__  ____ ______       .-.
+ / /   / / _ \/ __ `/ ___/    ‒ (   ) ‒
+/ /___/ /  __/ /_/ / /           `-᾿
+\____/_/\___/\__,_/_/          /  |  \
+
 ```
 
 ### Help
