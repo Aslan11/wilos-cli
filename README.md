@@ -19,7 +19,7 @@ For example:
 export WILOS_CLI_FORECAST_API_TOKEN="<YOUR_API_TOKEN>"
 ```
 
-If you want to use the `--loc` flag and conveniently search by a location string you'll need a Google Maps API key.
+If you want to use the `--loc` flag and conveniently search by a location string you'll need a Google Maps Geocoding API key.
 
 Which you can get by clicking on the *Get A Key* button on this [page](https://developers.google.com/maps/web-services/).
 
@@ -60,6 +60,13 @@ Usage
 
 ```bash
 $ wilos --lat=19.8968 --lon=155.5828 # weather for Hawaii
+"======== What's it like outside Hawaii, USA? ========"
+   ____                                  __
+  / __ \_   _____  ______________ ______/ /_       .--.
+ / / / / | / / _ \/ ___/ ___/ __ `/ ___/ __/     .(    ).-.
+/ /_/ /| |/ /  __/ /  / /__/ /_/ (__  ) /_      (___.__(   ).
+\____/ |___/\___/_/   \___/\__,_/____/\__/            (___(__)
+
 ```
 
 ### Get Weather for a location (Requires Forecast.io and Google Key)

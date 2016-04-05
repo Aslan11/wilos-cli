@@ -47,8 +47,8 @@ class Stdout(BaseWriter):
         click.echo()
 
     def title(self, title):
-        "Prints the title"
-        title = " What's it like outside {0}? ".format(title)
+        """Prints the title"""
+        title = " What's it like out side {0}? ".format(title)
         click.secho("{:=^62}".format(title), fg=self.colors.WHITE)
         click.echo()
 
@@ -112,6 +112,18 @@ class Stdout(BaseWriter):
  ___/ / / / / /_/ / |/ |/ /      *   *   *
 /____/_/ /_/\____/|__/|__/         *   *
 
+                """, fg=self.colors.BLUE)
+                click.echo()
+
+            elif summary == 'Light Snow':
+                click.secho("""
+
+    __    _       __    __    _____
+   / /   (_)___ _/ /_  / /_  / ___/____  ____ _      __       .--.
+  / /   / / __ `/ __ \/ __/  \__ \/ __ \/ __ \ | /| / /    .-(    ).
+ / /___/ / /_/ / / / / /_   ___/ / / / / /_/ / |/ |/ /    (___.__)__)
+/_____/_/\__, /_/ /_/\__/  /____/_/ /_/\____/|__/|__/       *  *  *
+        /____/
                 """, fg=self.colors.BLUE)
                 click.echo()
 

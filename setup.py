@@ -10,8 +10,8 @@ if os.environ.get('USER','') == 'vagrant':
 
 setup(
     name='wilos-cli',
-    version='0.1.0.0',
-    description='Weather for Hackers.',
+    version='0.1.0.1',
+    description='What\'s it like outside? - Weather for hackers',
     author='Kevin Martin',
     license='MIT',
     classifiers=[
