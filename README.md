@@ -31,6 +31,11 @@ For example:
 export WILOS_CLI_GOOGLE_API_TOKEN="<YOUR_API_TOKEN>"
 ```
 
+### Install via `pip`
+```bash
+$ pip install wilos-cli
+```
+
 ### Build from source
 
 ```bash
